@@ -5,7 +5,7 @@ const { v4: uuidv4 } = require('uuid');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: "express", uid: uuidv4()});
+  res.render('index', { title: "Express example", uid: uuidv4()});
 });
 
 module.exports = router;
